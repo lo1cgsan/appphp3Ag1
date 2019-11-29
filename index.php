@@ -12,8 +12,13 @@ require_once('inc/funkcje.php');
 
 $db = new Baza('baza/baza.db');
 
-echo "<h1>Aplikacja PHP</h1>";
+if (isset($_GET['id']))
+	$id = $_GET['id'];
+else
+	$id = 1;
 
-get_kom($db->kom);
+$strona = array();
+
+require_once('inc/template.php');
 
 ?>

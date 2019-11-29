@@ -1,0 +1,49 @@
+[29-Nov-2019 13:54:03 Europe/Warsaw] PHP Notice:  Undefined variable: id in /home/lo1sand/public_html/appphp3Ag1/inc/template.php on line 23
+[29-Nov-2019 13:54:03 Europe/Warsaw] PHP Notice:  Undefined index: tytul in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 22
+[29-Nov-2019 13:54:03 Europe/Warsaw] PHP Notice:  Undefined index: plik in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 26
+[29-Nov-2019 13:54:03 Europe/Warsaw] PHP Warning:  include(404.html): failed to open stream: Nie ma takiego pliku ani katalogu in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 29
+[29-Nov-2019 13:54:03 Europe/Warsaw] PHP Warning:  include(): Failed opening '404.html' for inclusion (include_path='.:/usr/share/php') in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 29
+[29-Nov-2019 13:56:35 Europe/Warsaw] PHP Notice:  Undefined index: tytul in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 22
+[29-Nov-2019 13:56:35 Europe/Warsaw] PHP Notice:  Undefined index: plik in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 26
+[29-Nov-2019 13:56:35 Europe/Warsaw] PHP Warning:  include(404.html): failed to open stream: Nie ma takiego pliku ani katalogu in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 29
+[29-Nov-2019 13:56:35 Europe/Warsaw] PHP Warning:  include(): Failed opening '404.html' for inclusion (include_path='.:/usr/share/php') in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 29
+[29-Nov-2019 13:56:47 Europe/Warsaw] PHP Notice:  Undefined index: tytul in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 22
+[29-Nov-2019 13:56:47 Europe/Warsaw] PHP Notice:  Undefined index: plik in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 26
+[29-Nov-2019 13:56:47 Europe/Warsaw] PHP Warning:  include(404.html): failed to open stream: Nie ma takiego pliku ani katalogu in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 29
+[29-Nov-2019 13:56:47 Europe/Warsaw] PHP Warning:  include(): Failed opening '404.html' for inclusion (include_path='.:/usr/share/php') in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 29
+[29-Nov-2019 13:56:48 Europe/Warsaw] PHP Notice:  Undefined index: tytul in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 22
+[29-Nov-2019 13:56:48 Europe/Warsaw] PHP Notice:  Undefined index: plik in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 26
+[29-Nov-2019 13:56:48 Europe/Warsaw] PHP Warning:  include(404.html): failed to open stream: Nie ma takiego pliku ani katalogu in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 29
+[29-Nov-2019 13:56:48 Europe/Warsaw] PHP Warning:  include(): Failed opening '404.html' for inclusion (include_path='.:/usr/share/php') in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 29
+[29-Nov-2019 13:56:50 Europe/Warsaw] PHP Notice:  Undefined index: tytul in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 22
+[29-Nov-2019 13:56:50 Europe/Warsaw] PHP Notice:  Undefined index: plik in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 26
+[29-Nov-2019 13:56:50 Europe/Warsaw] PHP Warning:  include(404.html): failed to open stream: Nie ma takiego pliku ani katalogu in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 29
+[29-Nov-2019 13:56:50 Europe/Warsaw] PHP Warning:  include(): Failed opening '404.html' for inclusion (include_path='.:/usr/share/php') in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 29
+[29-Nov-2019 13:57:30 Europe/Warsaw] PHP Notice:  Undefined index: tytul in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 23
+[29-Nov-2019 13:57:30 Europe/Warsaw] PHP Notice:  Undefined index: plik in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 27
+[29-Nov-2019 13:57:30 Europe/Warsaw] PHP Warning:  include(404.html): failed to open stream: Nie ma takiego pliku ani katalogu in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 30
+[29-Nov-2019 13:57:30 Europe/Warsaw] PHP Warning:  include(): Failed opening '404.html' for inclusion (include_path='.:/usr/share/php') in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 30
+[29-Nov-2019 13:59:24 Europe/Warsaw] PHP Warning:  include(404.html): failed to open stream: Nie ma takiego pliku ani katalogu in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 30
+[29-Nov-2019 13:59:24 Europe/Warsaw] PHP Warning:  include(): Failed opening '404.html' for inclusion (include_path='.:/usr/share/php') in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 30
+[29-Nov-2019 13:59:36 Europe/Warsaw] PHP Warning:  include(404.html): failed to open stream: Nie ma takiego pliku ani katalogu in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 30
+[29-Nov-2019 13:59:36 Europe/Warsaw] PHP Warning:  include(): Failed opening '404.html' for inclusion (include_path='.:/usr/share/php') in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 30
+[29-Nov-2019 13:59:41 Europe/Warsaw] PHP Warning:  include(404.html): failed to open stream: Nie ma takiego pliku ani katalogu in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 30
+[29-Nov-2019 13:59:41 Europe/Warsaw] PHP Warning:  include(): Failed opening '404.html' for inclusion (include_path='.:/usr/share/php') in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 30
+[29-Nov-2019 13:59:44 Europe/Warsaw] PHP Warning:  include(404.html): failed to open stream: Nie ma takiego pliku ani katalogu in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 30
+[29-Nov-2019 13:59:44 Europe/Warsaw] PHP Warning:  include(): Failed opening '404.html' for inclusion (include_path='.:/usr/share/php') in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 30
+[29-Nov-2019 13:59:45 Europe/Warsaw] PHP Warning:  include(404.html): failed to open stream: Nie ma takiego pliku ani katalogu in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 30
+[29-Nov-2019 13:59:45 Europe/Warsaw] PHP Warning:  include(): Failed opening '404.html' for inclusion (include_path='.:/usr/share/php') in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 30
+[29-Nov-2019 13:59:46 Europe/Warsaw] PHP Warning:  include(404.html): failed to open stream: Nie ma takiego pliku ani katalogu in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 30
+[29-Nov-2019 13:59:46 Europe/Warsaw] PHP Warning:  include(): Failed opening '404.html' for inclusion (include_path='.:/usr/share/php') in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 30
+[29-Nov-2019 13:59:46 Europe/Warsaw] PHP Warning:  include(404.html): failed to open stream: Nie ma takiego pliku ani katalogu in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 30
+[29-Nov-2019 13:59:46 Europe/Warsaw] PHP Warning:  include(): Failed opening '404.html' for inclusion (include_path='.:/usr/share/php') in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 30
+[29-Nov-2019 13:59:47 Europe/Warsaw] PHP Warning:  include(404.html): failed to open stream: Nie ma takiego pliku ani katalogu in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 30
+[29-Nov-2019 13:59:47 Europe/Warsaw] PHP Warning:  include(): Failed opening '404.html' for inclusion (include_path='.:/usr/share/php') in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 30
+[29-Nov-2019 14:00:00 Europe/Warsaw] PHP Warning:  include(404.html): failed to open stream: Nie ma takiego pliku ani katalogu in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 30
+[29-Nov-2019 14:00:00 Europe/Warsaw] PHP Warning:  include(): Failed opening '404.html' for inclusion (include_path='.:/usr/share/php') in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 30
+[29-Nov-2019 14:00:04 Europe/Warsaw] PHP Warning:  include(404.html): failed to open stream: Nie ma takiego pliku ani katalogu in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 30
+[29-Nov-2019 14:00:04 Europe/Warsaw] PHP Warning:  include(): Failed opening '404.html' for inclusion (include_path='.:/usr/share/php') in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 30
+[29-Nov-2019 14:00:06 Europe/Warsaw] PHP Warning:  include(404.html): failed to open stream: Nie ma takiego pliku ani katalogu in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 30
+[29-Nov-2019 14:00:06 Europe/Warsaw] PHP Warning:  include(): Failed opening '404.html' for inclusion (include_path='.:/usr/share/php') in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 30
+[29-Nov-2019 14:00:08 Europe/Warsaw] PHP Warning:  include(404.html): failed to open stream: Nie ma takiego pliku ani katalogu in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 30
+[29-Nov-2019 14:00:08 Europe/Warsaw] PHP Warning:  include(): Failed opening '404.html' for inclusion (include_path='.:/usr/share/php') in /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php on line 30
