@@ -9,8 +9,10 @@ ini_set('error_log', 'errorlog.txt');
 $kom = array();
 require_once('inc/db.php');
 require_once('inc/funkcje.php');
+require_once('inc/users.php');
 
 $db = new Baza('baza/baza.db');
+$user = new User();
 
 if (isset($_GET['id']))
 	$id = $_GET['id'];
