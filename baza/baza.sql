@@ -16,7 +16,7 @@ CREATE TABLE users (
 	login CHAR(20),
 	haslo CHAR(40),
 	email VARCHAR(50),
-	data DATE
+	data DATE DEFAULT CURRENT_TIMESTAMP
 );
 
 DROP TABLE IF EXISTS posty;

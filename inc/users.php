@@ -30,8 +30,9 @@ class User {
 
 	function create_user() {
 		$this->haslo = sha1($this->haslo);
-		$q = 'INSERT INTO (id, login, email, haslo)';
+		$q = 'INSERT INTO users (id, login, email, haslo)';
 		$q .= ' VALUES(NULL, \''.$this->login.'\', \''.$this->email.'\', \''.$this->haslo.'\')';
+		echo $q."<br>";
 		Baza::db_exec($q);
 		$this->id = Baza::db_lastID();
 	}
