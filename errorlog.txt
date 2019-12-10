@@ -50,3 +50,10 @@
 [03-Dec-2019 09:39:50 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home/lo1sand/public_html/appphp3Ag1/inc/users.php on line 2
 [03-Dec-2019 09:40:20 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home/lo1sand/public_html/appphp3Ag1/inc/users.php on line 2
 [03-Dec-2019 09:40:21 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home/lo1sand/public_html/appphp3Ag1/inc/users.php on line 2
+[06-Dec-2019 13:55:14 Europe/Warsaw] PHP Fatal error:  Uncaught Error: Call to undefined method User::login() in /home/lo1sand/public_html/appphp3Ag1/userlogin.html:12
+Stack trace:
+#0 /home/lo1sand/public_html/appphp3Ag1/inc/funkcje.php(27): include()
+#1 /home/lo1sand/public_html/appphp3Ag1/inc/template.php(33): get_page_content(Array)
+#2 /home/lo1sand/public_html/appphp3Ag1/index.php(24): require_once('/home/lo1sand/p...')
+#3 {main}
+  thrown in /home/lo1sand/public_html/appphp3Ag1/userlogin.html on line 12
