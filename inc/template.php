@@ -17,10 +17,12 @@
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="http://lo1.sandomierz.pl/plany/ostatni/index.html">Plan lekcji</a>
-                </li>
-                <?php get_menu($id, $strona); ?>
+<?php get_menu($id, $strona);
+    if ($user->id) {
+        echo '<li class="nav-item"><a class="nav-link" href="?id=1&wyloguj=1">Wyloguj</a></li>';
+    }
+ ?>
+
             </ul>
         </div>
     </nav>

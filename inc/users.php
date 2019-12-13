@@ -43,6 +43,13 @@ class User {
 		}
 	}
 
+	function logout(){
+		setcookie($this->CookieName, '', time()-(3*$this->remTime), '/', $this->CookieDomain, false, true);
+		$this->dane = array();
+		$_SESSION = array();
+		if (session_destroy()) $this->kom[] = 'Zosatłeś wylogowany!';
+	}
+
 	function is_user($login, $haslo) {
 		$q = "SELECT * FROM users WHERE login='$login' AND haslo='".sha1($haslo)."' LIMIT 1";
 		Baza::db_query($q);

@@ -1,4 +1,4 @@
 *.db
 /sesje/
 errorlog.txt
-/db/
+/baza/
