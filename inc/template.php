@@ -32,6 +32,12 @@
 <?php
             get_page_content($strona);
             get_kom(Baza::$kom);
+            get_kom($user->kom);
+            if (isset($_COOKIE[$user->CookieName])) {
+                echo "<p>Ciastko: ".$_COOKIE[$user->CookieName]."</p>";
+            } else {
+                echo "Brak ciastka.";
+            }
 ?>
             </div>
     	</div>

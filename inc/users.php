@@ -10,15 +10,21 @@ class User {
 	var $kom = array();
 
 	function __construct() {
-		if ($this->CookieDomain == '') $this->CookieDomain = $_SERVER['HTTP_HOST'];
+		if ($this->CookieDomain == '') $this->CookieDomain = 'localhost';
 
 		if (!isset($_SESSION)) session_start();
 
 		if (isset($_COOKIE[$this->CookieName]) && !$this->id) {
 			$c = unserialize(base64_decode($_COOKIE[$this->CookieName]));
-			if ($this->login($c['login'], $c['haslo'], false, $true)) {
+			if ($this->login($c['login'], $c['haslo'], false, true)) {
 				$this->kom[] = "Automatyczne logowanie.";
 			}
+		}
+
+		if (!$this->id && isset($_POST['login2'])) {
+			$login2 = clrtxt($_POST['login2']);
+			$haslo2 = clrtxt($_POST['haslo2']);
+			$this->login($login2, $haslo2, true, true);
 		}
 	}
 
@@ -28,18 +34,12 @@ class User {
 				$cookie = base64_encode(serialize(array('login'=>$login, 'haslo'=>$haslo)));
 				$a = setcookie($this->CookieName, $cookie, time()+$this->remTime, '/', $this->CookieDomain, false, true);
 				if ($a) $this->kom[] = 'Zapisano ciasteczko.';
+				$this->kom[] = "Witaj $login! Zostałeś zalogowany.";
+				return true;
 			}
 		} else {
 			$this->kom[] = '<p class="text-warning">Błędny login lub hasło</p>';
 			return false;
-		}
-
-		if ($rem) {
-			$this->kom[] = "Witaj $login! Zostałeś zalogowany.";
-			return true;
-		}
-		if ($load) {
-			return true;
 		}
 	}
 
