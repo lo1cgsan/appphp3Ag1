@@ -43,11 +43,15 @@ class User {
 		}
 	}
 
-	function logout(){
+	function logout($redirectTo=''){
 		setcookie($this->CookieName, '', time()-(3*$this->remTime), '/', $this->CookieDomain, false, true);
 		$this->dane = array();
 		$_SESSION = array();
 		if (session_destroy()) $this->kom[] = 'Zosatłeś wylogowany!';
+		if ($redirectTo != '' && !headers_sent()) {
+			header('Location: '.$redirectTo);
+			exit;
+		}
 	}
 
 	function is_user($login, $haslo) {

@@ -6,10 +6,11 @@ CREATE TABLE menu (
 	pozycja INTEGER
 );
 
-INSERT INTO menu VALUES(NULL, 'Strona główna', 'glowna.html', 1);
+INSERT INTO menu VALUES(NULL, 'Główna', 'glowna.html', 1);
 INSERT INTO menu VALUES(NULL, 'Wiadomości', 'wiadomosci.html', 2);
-INSERT INTO menu VALUES(NULL, 'Zarejestruj', 'userform.html', 3);
+INSERT INTO menu VALUES(NULL, 'Konto', 'userform.html', 3);
 INSERT INTO menu VALUES(NULL, 'Zaloguj się', 'userlogin.html', 4);
+INSERT INTO menu VALUES(NULL, 'Wyloguj się', 'wyloguj.html', 5);
 
 
 DROP TABLE IF EXISTS users;
@@ -26,5 +27,6 @@ CREATE TABLE posty (
 	id INTEGER PRIMARY KEY AUTOINCREMENT,
 	wiadomosc VARCHAR,
 	id_user INTEGER,
+	data DATE DEFAULT CURRENT_TIMESTAMP,
 	FOREIGN KEY (id_user) REFERENCES users(id)
 );

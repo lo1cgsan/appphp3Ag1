@@ -17,12 +17,7 @@
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
-<?php get_menu($id, $strona);
-    if ($user->id) {
-        echo '<li class="nav-item"><a class="nav-link" href="?id=1&wyloguj=1">Wyloguj</a></li>';
-    }
- ?>
-
+                <?php get_menu($id, $strona); ?>
             </ul>
         </div>
     </nav>
@@ -35,6 +30,7 @@
             get_page_content($strona);
             get_kom(Baza::$kom);
             get_kom($user->kom);
+            get_kom($kom);
             if (isset($_COOKIE[$user->CookieName])) {
                 echo "<p>Ciastko: ".$_COOKIE[$user->CookieName]."</p>";
             } else {

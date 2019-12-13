@@ -5,7 +5,6 @@ if (isset($_POST['login'])) {
 	global $user, $kom;
 
   foreach ($_POST as $k => $v) {
-  	echo $k." ".$v."<br>";
   	${$k} = clrtxt($v);
   }
 
@@ -25,6 +24,9 @@ if (isset($_POST['login'])) {
   	$user->email = $email;
   	$user->haslo = $haslo;
   	$user->create_user();
+    if (!headers_sent()) {
+      header('Location: ', '?id=4');
+    }
   }
 }
 
